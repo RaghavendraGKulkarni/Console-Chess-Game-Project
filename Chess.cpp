@@ -5,7 +5,7 @@ Function Name :- delay
 Input Arguments :- an integer
 Return Value :- null
 Description :- It is the function to create a time delay of few seconds. The number of seconds,
-               the delay to be created, is passed as the Argument to the function.
+               the delay to be created, is passed as the argument to the function.
 **/
 void delay(int n)
 {
@@ -34,16 +34,13 @@ Input Arguments :- two pointers of class Square
 Return Value :- boolean value
 Description :- It is the function which checks whether the move given by the user to move the King
                is a Valid Move or not, according to the Standard rules of the Game and returns
-               True, if it is a valid move and false, not.
+               True, if it is a valid move and false, if not.
 **/
 bool King::validMove(Square* src,Square* dest)
 {
     if(abs(src->pos.x - dest->pos.x)==1 && abs(src->pos.y - dest->pos.y)==1)
-    {
         if((dest->piece)->color!=(src->piece)->color)
             return true;
-        return false;
-    }
     return false;
 }
 
@@ -53,7 +50,7 @@ Input Arguments :- two pointers of class Square
 Return Value :- boolean value
 Description :- It is the function which checks whether the move given by the user to move the Queen
                is a Valid Move or not, according to the Standard rules of the Game and returns
-               True, if it is a valid move and false, not.
+               True, if it is a valid move and false, if not.
 **/
 bool Queen::validMove(Square* src,Square* dest)
 {
@@ -150,24 +147,18 @@ Input Arguments :- two pointers of class Square
 Return Value :- boolean value
 Description :- It is the function which checks whether the move given by the user to move the Knight
                is a Valid Move or not, according to the Standard rules of the Game and returns
-               True, if it is a valid move and false, not.
+               True, if it is a valid move and false, if not.
 **/
 bool Knight::validMove(Square* src,Square* dest)
 {
     if((dest->piece)->color==(src->piece)->color)
         return false;
     if(abs(src->pos.x - dest->pos.x)==2 && abs(src->pos.y - dest->pos.y)==1)
-    {
         if((dest->piece)->color!=(src->piece)->color)
             return true;
-        return false;
-    }
     else if(abs(src->pos.x - dest->pos.x)==1 && abs(src->pos.y - dest->pos.y)==2)
-    {
         if((dest->piece)->color!=(src->piece)->color)
             return true;
-        return false;
-    }
     return false;
 }
 
@@ -177,7 +168,7 @@ Input Arguments :- two pointers of class Square
 Return Value :- boolean value
 Description :- It is the function which checks whether the move given by the user to move the Bishop
                is a Valid Move or not, according to the Standard rules of the Game and returns
-               True, if it is a valid move and false, not.
+               True, if it is a valid move and false, if not.
 **/
 bool Bishop::validMove(Square* src,Square* dest)
 {
@@ -226,7 +217,7 @@ Input Arguments :- two pointers of class Square
 Return Value :- boolean value
 Description :- It is the function which checks whether the move given by the user to move the Rook
                is a Valid Move or not, according to the Standard rules of the Game and returns
-               True, if it is a valid move and false, not.
+               True, if it is a valid move and false, if not.
 **/
 bool Rook::validMove(Square* src,Square* dest)
 {
@@ -290,7 +281,7 @@ Input Arguments :- two pointers of class Square
 Return Value :- boolean value
 Description :- It is the function which checks whether the move given by the user to move the Pawn
                is a Valid Move or not, according to the Standard rules of the Game and returns
-               True, if it is a valid move and false, not.
+               True, if it is a valid move and false, if not.
 **/
 bool Pawn::validMove(Square* src,Square* dest)
 {
@@ -383,10 +374,11 @@ void Board::newGame()
 /**
 Function Name :- oldGame
 Input Arguments :- null
-Return Value :- null
-Description :- It is the function which extracts the old Game saved in the Backup file, by the
-               Gamer while quiting the game. It extracts all the information and sets the board
-               in the exact state where the gamer had left it, saving the game.
+Return Value :- A value of color enumarated data type
+Description :- It is the function which extracts the old Game saved in the Backup file, saved by 
+                the Gamer while quiting the game. It extracts all the information and sets the board
+               in the exact state where the gamer had left it, saving the game. It returns the color 
+               of the pieces of the player who has to start/continue the game.
 **/
 Color Board::oldGame()
 {
