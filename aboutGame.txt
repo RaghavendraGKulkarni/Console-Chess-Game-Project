@@ -1,0 +1,21 @@
+Steps to the Play the Game :-
+1)To start a new Game select option 1.
+2)If there is an unsaved game, you will get an option to either continue it
+  or discard it and start a new Game.
+3)As the game starts, you will see the chess board printed on the console.
+4)The player's piece color is displayed, who has to make the next move.
+5)You need to enter the co-ordinates of the start and end position to make a move.
+  You will get the co-ordinates of a location by looking at the board.
+6)If the move is a valid one, the move is made and next player is allowed to make a move.
+7)Every time the player is about to make a move, the player is notified whether their king is in a Check.
+  If the King is in a check and there are valid moves for the player to remove King from check,
+  the player is allowed to make a move. Else, the game ends declaring the other player as the Winner.
+8)If the Player has King in check with valid moves available, but the player isn't getting the moves,
+  he/she can enter "Save Me" to get a Hint Move which removes the King from Check.
+9)If the player wants to perform Castling, then he/she can type "Castle" and then enter the co-ordinates
+  of the Rook, which is to be castled with the King.
+10)The Game does not support en Passant move, due to internal restrictions.
+11)Players are able to see the pieces of the opponent,captured by him/her on the console.
+12)If any player wants to quit the game, he/she has to type "Quit Game" to end the game.
+13)The player gets an option to either save the game or discard it. If the game is saved,
+   the player can continue it next time from the stage, next time.

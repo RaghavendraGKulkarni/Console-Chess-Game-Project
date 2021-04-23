@@ -1,0 +1,49 @@
+                                            Welcome Message
+		Chess is a two player game played on a checkered board with 64 squares arranged in an 8x8 grid.
+Each player begins with 16 pieces : one king, one queen, two rooks, two knights , two bishops and eight pawns.
+Each type moves differently, with the Queen being the most powerful and the pawn being the least powerful.
+The objective of players is to Checkmate the opponent's king by placing it in a position of an inescapable threat of capture.
+To this end, a player's pieces are used to attack and capture the opponent's pieces, while supporting each other. During the game,
+play typically involves exchanging pieces for the opponent's similar pieces, and finding and engineering opportunities to trade advantageously or
+to get a better position. In addition to checkmate, a player wins the game if the opponent resigns, or, in a timed game, runs out of time.
+There are also several ways that a game can end in a draw.
+Rules :-
+a) Movements :-
+	i) The king moves one square in any direction. The king also has a special move called castling that involves also moving a rook.
+	ii) A rook can move any number of squares along a rank or file, but cannot leap over other 	pieces.
+        Along with the king, a rook is involved during the king's castling move.
+	iii) A bishop can move any number of squares diagonally, but cannot leap over other pieces.
+	iv) The queen combines the power of a rook and bishop and can move any number of squares along a rank, file, or diagonal,
+        but cannot leap over other pieces.
+	v) A knight moves to any of the closest squares that are not on the same rank, file, or diagonal.
+        (Thus the move forms an "L"-shape: two squares vertically and one square horizontally, or two squares horizontally and one square vertically.)
+        The knight is the only piece that can leap over other pieces.
+	vi) A pawn can move forward to the unoccupied square immediately in front of it on the same file, or on its first move it can advance
+        two squares along the same file, provided both squares 	are unoccupied (black dots in the diagram)
+        or the pawn can capture an opponent's piece on a square diagonally in front of it on an adjacent file, by moving to that square
+        (black "x"s). A pawn has two special moves: the en passant capture and promotion.
+b) Castling :- Once in every game, each king can make a special move, known as castling. Castling consists of moving the king two squares
+    along the first rank toward a rook (that is on the player's first rank and then placing the rook on the last square that the king just crossed.
+    Castling is permissible if the following conditions are met:[5]
+    i) Neither the king nor the rook has previously moved during the game.
+    ii)	There are no pieces between the king and the rook.
+    iii) The king cannot be in check, nor can the king pass through any square that is under attack by an enemy piece,
+        or move to a square that would result in check. (Note that castling is permitted if the rook is under attack,
+        or if the rook crosses an attacked square.)
+c) En Passant :- When a pawn makes a two-step advance from its starting position and there is an opponent's pawn on a square next
+    to the destination square on an adjacent file, then the opponent's pawn can capture it en passant ("in passing"),
+    moving to the square the pawn passed over. This can be done only on the very next turn; otherwise the right to do so is forfeited.
+d) Promotion :- When a pawn advances to the eighth rank, as a part of the move it is promoted and must be exchanged for the player's
+    choice of queen, rook, bishop, or knight of the same color. Usually, the pawn is chosen to be promoted to a queen, but in some cases
+    another piece is chosen; this is called an under promotion.
+e) Check :- When a king is under immediate attack by one or two of the opponent's pieces, it is said to be in Check.
+    A move in response to a check is legal only if it results in a position where the king is no longer in check. This can involve capturing
+    the checking piece; interposing a piece between the checking piece and the king (which is possible only if the attacking piece is a queen,
+    rook, or bishop and there is a square between it and the king) or moving the king to a square where it is not under attack.
+f) Checkmate :- Checkmate occurs when the opponent's king is in check, and there is no legal way to remove it from attack.
+    It is never legal for a player to make a move that puts or leaves the player's own king in check.
+g) Draw :- The Game can end by a draw in one of the following ways :-
+	i) The players can compromise with each other and can declare a draw by their own.
+	ii) If 50 moves are taken, together by the players and no piece of either of the players is captured, then it can lead to a draw.
+h) Stalemate :- If the opponent king is not in a check, but any legal move of the opponent will put his/her king into a check,
+    then the opponent is not permitted to do so, and the game ends by Stalemate.
