@@ -1,21 +1,16 @@
 Steps to the Play the Game :-
 1)To start a new Game select option 1.
-2)If there is an unsaved game, you will get an option to either continue it
-  or discard it and start a new Game.
+2)If there is a saved game, you will get an option to either continue it or discard it and start a new Game. If no saved game, a new game is started automatically.
 3)As the game starts, you will see the chess board printed on the console.
-4)The player's piece color is displayed, who has to make the next move.
-5)You need to enter the co-ordinates of the start and end position to make a move.
-  You will get the co-ordinates of a location by looking at the board.
-6)If the move is a valid one, the move is made and next player is allowed to make a move.
-7)Every time the player is about to make a move, the player is notified whether their king is in a Check.
-  If the King is in a check and there are valid moves for the player to remove King from check,
-  the player is allowed to make a move. Else, the game ends declaring the other player as the Winner.
-8)If the Player has King in check with valid moves available, but the player isn't getting the moves,
-  he/she can enter "Save Me" to get a Hint Move which removes the King from Check.
-9)If the player wants to perform Castling, then he/she can type "Castle" and then enter the co-ordinates
-  of the Rook, which is to be castled with the King.
-10)The Game does not support en Passant move, due to internal restrictions.
+4)The player's piece color is displayed, who has to make the next move. Uppercase letters denote white pieces and lowercase letters denote black pieces.
+5)You need to enter the co-ordinates of the start and end position to make a move. You will get the co-ordinates of a location by looking at the board.
+  For example, In (7,1), 7 denotes the row number and 1 denotes the column number. If you want to make a move from (7,1) to (5,1), you need to enter "71 51".
+6)If the move is a valid one, the move is made and next player is allowed to make a move. Else, the player has to choose any other valid move.
+7)Every time the player is about to make a move, the player is notified whether their king is in a check. If the King is in a check and there are valid moves for the player to       remove King from check, the player is allowed to make a move. Else, the game ends declaring the opponent player as the Winner.
+8)If the Player has the King in check with valid moves available, but the player isn't getting the moves, he/she can enter "Save Me" to get a Hint Move which removes the King from   Check. "Save Me" provides a Hint Move only when the king is in check.
+9)If the player wants to perform Castling, then he/she can type "Castle" and then enter the co-ordinates of the Rook, which is to be castled with the King. Conditions for the
+  castling is checked and if valid, castling is performed. Else, appropriate message is displayed.
+10)The Game does not support en Passant move of the Chess game.
 11)Players are able to see the pieces of the opponent,captured by him/her on the console.
 12)If any player wants to quit the game, he/she has to type "Quit Game" to end the game.
-13)The player gets an option to either save the game or discard it. If the game is saved,
-   the player can continue it next time from the stage, next time.
+13)The player gets an option to either save the game or discard it. If the game is saved, the player can continue it next time from the same stage.
